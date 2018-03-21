@@ -53,6 +53,7 @@ class TimeSuite:
         for key in list(range(self.len)):
             x = d[key]
 
+
     #A function that takes more than 120 sec to run, which means that it will fail and print:
     #asv: benchmark timed out (timeout 120.0s).
     def time_destind_to_fail(self):

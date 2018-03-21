@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "project": "project",
+  "project_url": "https://github.com/Adir7SK/QCoDes",
+  "repo": "..",
+  "show_commit_url": "https://github.com/Adir7SK/QCoDes/commit/",
+  "branches": ["master"], 
+  "environment_type": "conda"
+}
