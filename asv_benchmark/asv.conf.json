@@ -5,5 +5,6 @@
   "repo": "..",
   "show_commit_url": "https://github.com/Adir7SK/QCoDes/commit/",
   "branches": ["master"], 
-  "environment_type": "conda"
+  "environment_type": "conda",
+  "benchmark_dir": "benchmarks"
 }
