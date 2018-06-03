@@ -1,6 +1,6 @@
 # ASV-project
 
-Assuming you have Python, pip, qcodes repository and qcodes environment already installed.
+Assuming you have Python and pip installed, and qcodes cloned with qcodes environment.
 
 In Bash:
 1) Activate qcodes environment.
@@ -9,9 +9,9 @@ In Bash:
 4) Type ```asv quickstart``` - now you'll have all the needed files and folders.
 5) Open configuration file ```asv.conf.json```.
 6) Paste the code of the configuration file from here, in the new configuration file you just created.
-7) Type ```asv run``` and the ```asv machine``` - Now you've runed it all successfully for the first time. 
+7) Type ```asv run``` and then ```asv machine``` - Now you've runed it all successfully for the first time. 
 
-*You find a full basic project, with graphs, and all that asv have to offer under Basic_example.md folder.
+*You find a full basic project, with graphs, and all that asv have to offer under Basic_example.md folder, which you can follow.
 
 Additional usefull information for every step:
 
@@ -42,3 +42,5 @@ Files in this project:
 2. experimental.py and benchmarks1.
 3. benchmark_el.py - using asv on electronic devices (the example here is on KEYSIGHT34465A).
 4. benchmark.py.
+5. General explanation (not just for QCoDes) - https://github.com/Adir7SK/ASV-project
+6. Program creater - https://github.com/airspeed-velocity/asv
