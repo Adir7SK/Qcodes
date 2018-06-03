@@ -1,6 +1,6 @@
 #If any problem occures at any time, you'll presumeably find the answer in the README file.
 
-*Firstly make sure you are in the file you want the airspeed velocity.
+*Firstly make sure you are in the file you want the airspeed velocity (normally where you cloned qcodes).
 
 Step 1: Install-
 Airspeed velocity is a standard Python package, and the latest version may be installed with ```pip install asv```. The project uses ```setuptools```, and can also be installed by cloning the repository and using: ```python setup.py install```.
