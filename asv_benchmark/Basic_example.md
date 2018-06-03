@@ -16,7 +16,7 @@ In the file where you downloaded asv, go in to the the folder named benchmarks, 
 
 Step 4:
 Type ```asv run```, see that you don't get any errors or failures. Then commit it to git (```git add benchmarks/benchmarks.py``` and ```git commit```).
-Now type ```asv publish``` and then ```asv preview```. First time you do it, you'll get one point on each graph, that match the results you get from ```asv run``` (since there's only 3 functions, not including setup, there will only be 3 graphs).
+Now type ```asv publish``` and then ```asv preview```. First time you do it, you'll get one point on each graph, that match the results you get from ```asv run``` (since there's only 3 functions with a name to benchmark (time, mem etc..) there will only be 3 graphs).
 
 Step 5:
 Open again benchmarks.py and add to the function time_experimental ```e.wait()```, and go back to Step 4. Then remove one of the ```e.wait``` and go back to step 4. Finally, put the remaining ```e.wait()``` in the for loop: ```for i in range(8)``` and back to step 4.
