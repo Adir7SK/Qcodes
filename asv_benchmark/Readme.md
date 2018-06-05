@@ -2,14 +2,13 @@
 
 Assuming you have Python and pip installed, and qcodes cloned with qcodes environment.
 
-In Bash:
+Get Airspeed Velocity to run in 6 steps through bash:
 1) Activate qcodes environment.
 2) Enter qcodes folder (not qcodes/qcodes).
 3) Type ```pip install asv``` - installing asv.
 4) Type ```asv quickstart``` - now you'll have all the needed files and folders.
-5) Open configuration file ```asv.conf.json```.
-6) Paste the code of the configuration file from here, in the new configuration file you just created.
-7) Type ```asv run``` and then ```asv machine``` - Now you've runed it all successfully for the first time. 
+5) Paste the code of the configuration file from here, in the new configuration file you just created, i.e. ```asv.conf.json```.
+6) Type ```asv run``` and then ```asv machine``` - Now you've runed it all successfully for the first time. 
 
 *You find a full basic project, with graphs, and all that asv have to offer under Basic_example.md folder, which you can follow.
 
