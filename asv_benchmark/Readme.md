@@ -43,7 +43,7 @@ Files in this project:
 2. experimental.py and benchmarks1.
 3. benchmark_el.py - using asv on electronic devices (the example here is on KEYSIGHT34465A).
 4. benchmark.py.
-Hej Rasmus
+
 Links:
 1. General explanation (not just for QCoDes) - https://github.com/Adir7SK/ASV-project
 2. Original site - https://github.com/airspeed-velocity/asv
