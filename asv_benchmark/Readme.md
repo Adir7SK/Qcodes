@@ -28,6 +28,8 @@ Additional usefull information for every step:
 
 * Precis measurements - for the most accurate measurements, try to put as much as possible in the setup and teardown functions, and less in the functions you want to benchmark.You'll find a complete explanation for every type of function in here: https://asv.readthedocs.io/en/stable/writing_benchmarks.html#timing
 
+* Time measurement by default, is on the CPU (how long will it take for the CPU to run it). If you wish to measure the time of the network (for example, how long does it take to an electronic device measure volt), then you shall add in your benchmark: ```timer = timeit.default_timer```.
+
 * Importing modules - as in every Python file.
 
 * Usefull options for ```asv run``` - add ```--show-stderr``` to see the results (if a function have outputs) and full explanation of errors/possible errors. Another option is adding ```--python=python``` if you don't want the program to reinstall everything every time you run it, so you won't need to wait to long. See more here: https://asv.readthedocs.io/en/latest/writing_benchmarks.html#running-benchmarks-during-development
