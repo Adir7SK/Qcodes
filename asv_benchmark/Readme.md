@@ -16,7 +16,7 @@ Additional usefull information for every step:
 
 * About installation - Airspeed velocity is a standard Python package, and the latest version may be installed with pip install asv. The project uses setuptools, and can also be installed by cloning the repository and using: ```python setup.py install```. For more information: https://asv.readthedocs.io/en/latest/installing.html
 
-* Airspeed Velocity manages building and Python virtualenvs by itself, unless told otherwise.
+* Airspeed Velocity manages building Python virtualenvs by itself, unless told otherwise.
 
 * Adding benchmarks - go to benchmarks folder, add python file which name starts with benchmark.
 
