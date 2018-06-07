@@ -28,7 +28,7 @@ Additional usefull information for every step:
 
 * Precis measurements - for the most accurate measurements, try to put as much as possible in the setup and teardown functions, and less in the functions you want to benchmark.You'll find a complete explanation for every type of function in here: https://asv.readthedocs.io/en/stable/writing_benchmarks.html#timing
 
-* Time measurement by default, is on the CPU (how long will it take for the CPU to run it). If you wish to measure the time of the network (for example, how long does it take to an electronic device measure volt), then you shall add in your benchmark: ```timer = timeit.default_timer```, which works as a stop watch.
+* Time measurement by default, is CPU timer (how long will it take for the CPU to run it). If you wish to measure the time of the network (for example, how long does it take to an electronic device measure volt), then you shall add in your benchmark: ```timer = timeit.default_timer```, which works as a stop watch.
 
 * Importing modules - as in every Python file.
 
