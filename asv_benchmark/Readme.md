@@ -1,6 +1,6 @@
 # ASV-project
 
-Assuming you have Python and pip installed, and qcodes cloned with qcodes environment.
+Assuming you have ```conda```, Python and pip installed, and qcodes cloned with qcodes environment.
 
 Get Airspeed Velocity to run in 6 steps through bash:
 1) Activate qcodes environment.
