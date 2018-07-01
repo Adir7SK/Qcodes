@@ -24,7 +24,7 @@ Additional useful information for every step:
 
 * Creating classes and functions - Each class and function must have a particular name, depending on its purposes. If you fx start the functions name with time, then it will be a time benchmarking. asv understands how to handle the prefix in either CamelCase or lowercase with underscores (fx def time_measure and def TimeMeasure). See more in the following link: https://asv.readthedocs.io/en/latest/writing_benchmarks.html#benchmark-types
 
-* The default timeout for each function is 60s, which can be sometimes problematic. In order to change it, you'll need to write in the class but not in a function; timeout = x, where x is a float variale, and is in seconds, i.e. timeout = 72.33 means that you've changed the timeout to be 72.33 seconds.
+* The default timeout for each function is 60s, which can be sometimes problematic. In order to change it, you'll need to write in the class but not in a function; timeout = x, where x is a float variable, and is in seconds, i.e. timeout = 72.33 means that you've changed the timeout to be 72.33 seconds.
 
 * Precis measurements - for the most accurate measurements, try to put as much as possible in the setup and teardown functions, and less in the functions you want to benchmark. You'll find a complete explanation for every type of function in here: https://asv.readthedocs.io/en/stable/writing_benchmarks.html#timing
 
